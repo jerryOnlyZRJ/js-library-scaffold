@@ -1,0 +1,24 @@
+{
+  "name": "js-library-scaffold",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "homepage": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint src/**/*.js --fix",
+    "build": "node build/build.js",
+    "build:umd": "node build/build.js --format umd"
+  },
+  "keywords": [],
+  "author": "Ranjay",
+  "license": "Apache",
+  "devDependencies": {
+    "eslint": "^5.13.0",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-plugin-import": "^2.16.0",
+    "eslint-plugin-node": "^8.0.1",
+    "eslint-plugin-promise": "^4.0.1",
+    "eslint-plugin-standard": "^4.0.0"
+  }
+}
