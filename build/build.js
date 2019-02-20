@@ -35,7 +35,7 @@ const outputFormat = argv.format || 'iife'
 
 const comment = `/**
  * ${pkg.name} v${pkg.version}
- * Copyright 2018-2019 ${pkg.author}
+ * Copyright 2018-${new Date().getFullYear()} ${pkg.author}
  * Released under the ${pkg.license} License
  * ${pkg.homepage}
  */\r\n`
